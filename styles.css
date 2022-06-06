@@ -160,10 +160,12 @@ body {
 
 .contact-info__avatar {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border: 3px solid;
+    margin-left: 320px;
+    margin-bottom: 100px;
     border-color: var(--text-decoration-color);
 }
 
