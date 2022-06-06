@@ -1,6 +1,4 @@
-
 /*General styles*/
-
 
 * {
     margin: 0;
@@ -23,23 +21,18 @@ body {
 }
 
 .container {
-
-    margin: 10px;
-
+    margin: 0 auto;
     padding: 0 30px;
     max-width: 900px;
 }
 
-
 .left-block {
-    padding: 50px;
     margin-top: 50px;
-    margin-left: 0px;
+    margin-left: 20px;
     border: 1px solid #f5f5f5;
-    box-shadow: 3px 3px 7px 7px #ff990027;
-
+    box-shadow: 5px 5px 5px 5px #ff99004e;
+    padding: 30px;
 }
-
 
 .fh {
     display: flex;
@@ -85,6 +78,8 @@ body {
     .experiences {
         margin-right: 0;
     }
+}
+
 
 @media screen and (max-width: 1024px) {
     body {
@@ -100,7 +95,11 @@ body {
     transition: transform 0.3s ease;
 }
 
-
+.joke {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    display: inline;
+}
 
 .hidden_feature:hover {
     transform: rotate(180deg);
@@ -133,11 +132,12 @@ body {
 
 .contact-info__block--center {
     justify-content: center;
+    margin-bottom: 30px;
 }
 
+.contact-info__item,
 .contact-info__item_FB,
-.contact-info__item_Inst, 
-.contact-info__item_geo {
+.contact-info__item_Inst {
     color: var(--secondary-text-color);
     text-decoration: none;
     display: flex;
@@ -165,13 +165,12 @@ body {
 }
 
 .contact-info__avatar {
+    margin-left: 260px;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     border: 3px solid;
-    margin-left: 320px;
-    margin-bottom: 100px;
     border-color: var(--text-decoration-color);
 }
 
@@ -239,7 +238,7 @@ body {
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
     text-align: left;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .experiences__company-project {
@@ -250,9 +249,8 @@ body {
 .experiences__company-project-role {
     color: var(--durability-text-color);
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 15px;
-    
 }
 
 .experiences__company-project-name {
@@ -278,7 +276,7 @@ body {
 .additional-info__education-header {
     color: var(--text-decoration-color);
     text-align: left;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .additional-info__education-university-durability {
@@ -291,7 +289,6 @@ body {
 .additional-info__education-university-speciality {
     color: var(--primary-text-color);
     text-align: left;
-    margin-top: 15px;
     margin-bottom: 10px;
 }
 
@@ -312,4 +309,3 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
-
