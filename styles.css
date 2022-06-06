@@ -1,6 +1,7 @@
 
 /*General styles*/
 
+
 * {
     margin: 0;
     padding: 0;
@@ -22,10 +23,13 @@ body {
 }
 
 .container {
+
     margin: 10px;
+
     padding: 0 30px;
     max-width: 900px;
 }
+
 
 .left-block {
     padding: 50px;
@@ -35,6 +39,7 @@ body {
     box-shadow: 3px 3px 7px 7px #ff990027;
 
 }
+
 
 .fh {
     display: flex;
@@ -80,8 +85,6 @@ body {
     .experiences {
         margin-right: 0;
     }
-}
-
 
 @media screen and (max-width: 1024px) {
     body {
@@ -309,3 +312,4 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
